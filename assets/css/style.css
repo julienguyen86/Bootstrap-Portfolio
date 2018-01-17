@@ -1,0 +1,167 @@
+body {
+    font-size: 16px;
+    line-height: 27px;
+    background-image: url(images/concrete_seamless.png)
+}
+
+
+
+
+/*Navigation bar */
+
+.navbar {
+    border-bottom: 2px solid;
+    border-color: #cccccc;
+    width: 100%;
+}
+
+
+/*logo*/
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    padding: 30px 30px 50px 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px 10px 0;
+}
+
+
+.navbar-nav p {
+    float: left;
+}
+
+/*Middle Left Section*/
+
+.img-thumbnail {
+    float: left;
+    height: auto;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+.page-header {
+    border: 1px solid;
+    border-color: lightgrey;
+    background-color: #ffffff;
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 25px;
+    margin: 0 0 40px;
+}
+
+
+h1 {
+    color: #4aaaa5;
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    border-color: #cccccc;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    border-color: #cccccc;
+}
+
+/*Middle Right Section*/
+
+.sidebar {
+    float: right;
+    width: 100%;
+    max-width: 270px;
+    padding: 10px;
+    margin-bottom: 30px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+}
+
+
+.socialIcons img {
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+    margin-right: 5px;
+    position: relative;
+    left: 40px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #696969;
+    padding: 20px 0;
+    font-size: 14px;
+    color: lightgrey;
+    text-align: center;
+    border-top: 10px solid;
+    border-color: #4aaaa5;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*Portfolio*/
+
+.myWork {
+    position: relative;
+    float: left;
+    height: 200px;
+    margin: 20px 0 25px;
+}
+
+
+.myWork img {
+    position: relative;
+    float: left;
+    height: 200px;
+    width: 255px;
+    padding: 10px;
+    overflow: auto;
+}
+
+
+
+.myWork h3 {
+    position: absolute;
+    width: 236px;
+    padding: 10px;
+    margin-top: 120px;
+    font-weight: 150;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+    z-index: 1;
+    margin-left: 10px;
+}
+
+/*Contact*/
+
+.btn-primary {
+    padding: 10px 25px;
+    background-color: #4aaaa5;
+}
